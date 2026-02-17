@@ -67,7 +67,10 @@ jobs:
             libx11-dev \
             libxft-dev \
             libfreetype6-dev \
-            xvfb
+            xvfb \
+            xdotool \
+            imagemagick \
+            ffmpeg
 
       - name: Build from private source entry script
         shell: bash
